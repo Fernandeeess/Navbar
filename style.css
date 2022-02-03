@@ -1,0 +1,22 @@
+ul{
+   
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+ul a{
+    display: block;
+    width: 200px;
+    height:40px;
+    background: yellow url(../images/menu.png)no-repeat left;
+    text-decoration:none;
+    color: black;
+    line-height: 40px;
+    font-weight: bold;
+    text-indent: 30px;
+}
+a:hover, .selecionado a{
+    background: rgb(194, 194, 0) url(../images/menu.png)no-repeat right bottom;
+    
+    color: rgb(255, 255, 255);
+}
